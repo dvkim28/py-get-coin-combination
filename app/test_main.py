@@ -39,7 +39,7 @@ class TestGetCoinCombination:
             ),
         ]
     )
-    def testGetCoin(self,
+    def test_get_coin(self,
                     coin: int,
                     expected_result: list) -> None:
         assert get_coin_combination(coin) == expected_result
